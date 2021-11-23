@@ -5,11 +5,9 @@
 Created an application to write and save notes. Uses Express.js back end to save and retrieve note data from JSON file.
 Connects back end and front end using Heroku.
 
-[Zookeeper Deployed Site](https://fathomless-waters-02393.herokuapp.com/)
+[Note Taker Heroku Deployed Site](https://salty-garden-26537.herokuapp.com/)
 
 ![!screenshot-index](./public/assets/images/screenshot-index.png)
-![!screenshot-animals](./public/assets/images/screenshot-animals.png)
-![!screenshot-zookeepers](./public/assets/images/screenshot-zookeepers.png)
 
 ## Table of Contents
 
@@ -58,7 +56,7 @@ Start the server by running `npm start` in the command line.
 
 :computer:
 
-See [Zookeeper Deployed Site](https://fathomless-waters-02393.herokuapp.com/) or see below to run your own server.
+See [Heroku Deployed Site](https://salty-garden-26537.herokuapp.com/) or see below to run your own server.
 
 Run `npm start` in the command line to start the server.
 
