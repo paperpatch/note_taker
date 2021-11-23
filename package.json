@@ -2,9 +2,10 @@
   "name": "note_taker",
   "version": "1.0.0",
   "description": "note_taker",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
