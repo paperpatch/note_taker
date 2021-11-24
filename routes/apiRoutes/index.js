@@ -33,8 +33,16 @@ router.post('/notes', (req, res) => {
   }
 })
 
-router.delete('/notes', (req, res) => {
-  req.body.id = notes.id;
+router.delete('/notes/:id', (req, res) => {
+  const notesID = req.params.id;
+  const notesExist = findID(notesID, notes);
+
+  if (notesExist) {
+    const newNotes = deleteNotes(notesID, notes);
+    res.json(newNotes);
+  } else {
+    res.send(404);
+  }
 })
 
 app.delete('/notes', function (req, res) {
