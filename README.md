@@ -6,7 +6,7 @@ Created an application to write and save notes. Uses Express.js back end to save
 Connects back end and front end using Heroku.
 
 [Note Taker Heroku Deployed Site](https://salty-garden-26537.herokuapp.com/)
-https://salty-garden-26537.herokuapp.com/
+
 ![!screenshot-index](./public/assets/images/screenshot-index.png)
 
 ## Table of Contents
@@ -23,7 +23,9 @@ You can replicate this project by performing the following below:
 
 Fork or clone this repository and open the files within to access the command prompt.
 
-Uses npm (Node Package Manager), Express.js and Heroku. Go to [Node's website](https://nodejs.org/en/) and follow the download instructions for your appropriate setup. NPM, or Node Package Manager, is the default package manager for Node.js. It is distributed with Node.js. Do not forget to npm init if you are using it for the very first time.
+You can also recreate the project by using npm (Node Package Manager), Express.js and Heroku.
+
+Go to [Node's website](https://nodejs.org/en/) and follow the download instructions for your appropriate setup. NPM, or Node Package Manager, is the default package manager for Node.js. It is distributed with Node.js. Do not forget to npm init if you are using it for the very first time.
 
 Check that your system has the following npm:
 - [Node Package Manager](https://nodejs.org/en/)
