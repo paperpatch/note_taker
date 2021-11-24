@@ -45,8 +45,4 @@ router.delete('/notes/:id', (req, res) => {
   }
 })
 
-app.delete('/notes', function (req, res) {
-  res.send('Got a DELETE request at /user')
-})
-
 module.exports = router;
