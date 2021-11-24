@@ -1,9 +1,14 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "123"
+      "title": "Clean bedroom",
+      "text": "- Rearranged items in room.\n- Throw away trash.",
+      "id": "8t0kwd2kej2"
+    },
+    {
+      "title": "Grocery Shopping",
+      "text": "Make a grocery shopping list.",
+      "id": "8t0kwd2lrlh"
     }
   ]
 }
