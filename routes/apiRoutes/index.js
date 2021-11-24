@@ -22,7 +22,8 @@ router.get('/notes/:id', (req, res) => {
 })
 
 router.post('/notes', (req, res) => {
-  req.body.id = notes.length.toString();
+  // make new unique id
+  req.body.id = uniqueID.process();
 
   if (!validateNotes(req.body)) {
     res.status(400).send('Notes is not properly formatted.');
