@@ -1,6 +1,13 @@
 const router = require('express').Router();
-const { validateNotes } = require('../../lib/notes');
+const { validateNotes, createNewNotes } = require('../../lib/notes');
 const { notes } = require('../../database/database.json')
+
+router.get('/notes', (req, res) => {
+  let results = notes;
+  if (req) {
+    res.json(results);
+  }
+})
 
 router.post('/notes', (req, res) => {
   req.body.id = notes.length.toString();
@@ -8,8 +15,8 @@ router.post('/notes', (req, res) => {
   if (!validateNotes(req.body)) {
     res.status(400).send('Notes is not properly formatted.');
   } else {
-    const notes = createNewNotes(req.body, notes);
-    res.json(notes);
+    const note = createNewNotes(req.body, notes);
+    res.json(note);
   }
 })
 

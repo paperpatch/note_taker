@@ -4,14 +4,13 @@
   "description": "note_taker",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paperpatch/note_taker.git"
   },
-  "author": "",
+  "author": "Patrick Chen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/paperpatch/note_taker/issues"
