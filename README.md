@@ -7,7 +7,8 @@ Connects back end and front end using Heroku.
 
 [Note Taker Heroku Deployed Site](https://salty-garden-26537.herokuapp.com/)
 
-![!screenshot-index](./public/assets/images/screenshot-index.png)
+![!screenshot of home site](./public/assets/images/screenshot_notetaker_home.png)
+![!screenshot of main site](./public/assets/images/screenshot_notetaker_main.png)
 
 ## Table of Contents
 

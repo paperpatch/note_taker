@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #f7f7f7;
 }
 
 .navbar {
@@ -18,6 +19,10 @@ body {
   margin-right: 15px;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.container-fluid, .note-title, .note-textarea {
+  background-color: #f7f7f7;
 }
 
 .note-textarea,
