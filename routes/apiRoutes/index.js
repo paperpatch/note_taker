@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { validateNotes, writeNotes, deleteNotes, findID } = require('../../lib/notes');
 const { notes } = require('../../database/database.json')
-const shortID = 
+const uniqueID = require('uniqid')
 
 router.get('/notes', (req, res) => {
   let results = notes;
@@ -9,6 +9,15 @@ router.get('/notes', (req, res) => {
     res.status(400).send("Notes is not properly formatted.");
   } else {
     res.json(results);
+  }
+})
+
+router.get('/notes/:id', (req, res) => {
+  const result = findID(req.params.id, notes);
+  if (result) {
+    res.json(result);
+  } else {
+    res.send(404);
   }
 })
 
