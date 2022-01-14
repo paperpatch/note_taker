@@ -5,7 +5,7 @@
 Created an application to write and save notes. Uses Express.js back end to save and retrieve note data from JSON file.
 Connects back end and front end using Heroku.
 
-[Note Taker Heroku Deployed Site](https://salty-garden-26537.herokuapp.com/)
+[Note Taker Heroku Deployed Site](https://notetaker-express-proj.herokuapp.com/)
 
 ![!screenshot of home site](./public/assets/images/screenshot_notetaker_home.png)
 ![!screenshot of main site](./public/assets/images/screenshot_notetaker_main.png)
@@ -60,7 +60,7 @@ Start the server by running `npm start` in the command line.
 
 :computer:
 
-See [Heroku Deployed Site](https://salty-garden-26537.herokuapp.com/) or see below to run your own server.
+See [Heroku Deployed Site](https://notetaker-express-proj.herokuapp.com/) or see below to run your own server.
 
 Run `npm start` in the command line to start the server.
 
